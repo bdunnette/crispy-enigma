@@ -45,7 +45,7 @@ plotly>=6,<7
 bqplot
 
 # Faker library for generating fake data (optional)
-Faker>=37.6.0,<38
+# Faker>=37.6.0,<38
 
 # Pyodide packages (optional)
 # Note: some packages may not be available in Pyodide, see https://pyodide.org/en/stable/usage/packages-in-pyodide.html
