@@ -43,3 +43,11 @@ ipyleaflet
 # Python: plotting libraries (optional)
 plotly>=6,<7
 bqplot
+
+# Faker library for generating fake data (optional)
+Faker>=37.6.0,<38
+
+# Pyodide packages (optional)
+# Note: some packages may not be available in Pyodide, see https://pyodide.org/en/stable/usage/packages-in-pyodide.html
+# pyodide-py>=0.28.2
+# pyodide-build>=0.30.7
