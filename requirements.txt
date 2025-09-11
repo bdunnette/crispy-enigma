@@ -1,5 +1,5 @@
 # Core modules (mandatory)
-jupyterlite-core==0.6.4
+jupyterlite-core[all]==0.6.4
 jupyterlab~=4.4.5
 notebook~=7.4.5
 
@@ -49,7 +49,6 @@ bqplot
 # Faker library for generating fake data (optional)
 # Faker>=37.6.0,<38
 
-# Pyodide packages (optional)
-# Note: some packages may not be available in Pyodide, see https://pyodide.org/en/stable/usage/packages-in-pyodide.html
-# pyodide-py>=0.28.2
-# pyodide-build>=0.30.7
+# Requirements for building Pyodide (optional, only if you want to build your own Pyodide with custom packages)
+# See https://pyodide.org/en/stable/development/building-packages.html for details
+#pyodide-build>=0.30.7
