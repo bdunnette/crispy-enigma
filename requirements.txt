@@ -8,17 +8,17 @@ notebook~=7.4.5
 jupyterlite-pyodide-kernel==0.6.1
 
 # JavaScript kernel (optional)
-jupyterlite-javascript-kernel==0.3.0
+# jupyterlite-javascript-kernel==0.3.0
 
 # Language support (optional)
-jupyterlab-language-pack-fr-FR
-jupyterlab-language-pack-zh-CN
+# jupyterlab-language-pack-fr-FR
+# jupyterlab-language-pack-zh-CN
 
 # P5 kernel (optional)
-jupyterlite-p5-kernel==0.1.0
+# jupyterlite-p5-kernel==0.1.0
 
 # JupyterLab: Fasta file renderer (optional)
-jupyterlab-fasta>=3.3.0,<4
+# jupyterlab-fasta>=3.3.0,<4
 # JupyterLab: Geojson file renderer (optional)
 jupyterlab-geojson>=3.4.0,<4
 # JupyterLab: Open URL parameter (needed for loading external resources)
@@ -47,7 +47,7 @@ plotly>=6,<7
 bqplot
 
 # Faker library for generating fake data (optional)
-# Faker>=37.6.0,<38
+Faker>=37.6.0,<38
 
 # Requirements for building Pyodide (optional, only if you want to build your own Pyodide with custom packages)
 # See https://pyodide.org/en/stable/development/building-packages.html for details
